@@ -33,6 +33,11 @@ func main() {
 	fmt.Printf("%#v\n", u)  // main.User{ID:1, Name:"Surya"} (Go-syntax)
 	fmt.Printf("%T\n", u)   // main.User (type)
 
+
+	maps1 := map[int]string{ 1 : "Sai", 2 : "leo"}
+	fmt.Printf("map: %v\n", maps1)
+	fmt.Print(maps1)
+
 }
 
 type User struct {
